@@ -1,0 +1,175 @@
+@font-face {
+	font-family:'magic';
+	src: url('magic.ttf');
+}
+
+.navbar-brand {
+	font-family: 'magic';
+	font-size: 40px;
+}
+
+
+.image-line {
+	float:left;
+}
+
+.img{
+	padding-top:5px;
+}
+.navbar{
+	background-color:black;
+}
+
+.active{
+	color:white;
+}
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+  opacity:1;
+}
+
+.navbar-brand {
+	font-size: 26px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+  background-color: Navy;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1920px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+#mainPage {
+  background-image: url('/images/AtlNightSkylineFromSCAD.jpg');
+  background-position: bottom-left;
+  background-size: 2090px 768px;
+  background-repeat: no-repeat;
+}
+
+#transparentBox {
+	background-color:MidnightBlue;
+	opacity: .7;
+	filter: alpha(opacity=70); /* For IE8 and earlier */
+	height:  600px;
+    width: 	420px;
+
+	color: white;
+}
+
+#innerBox {
+	opacity:1;
+	color: white;	
+}
+#creds {
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+
+#headshot {
+	border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#contactButton, .address, #contactForm {
+	 padding: 12px;
+}
+
+input[type=submit], input[type=reset]  {
+	background-color: deepskyblue;
+	color: white;
+}
+
+input[type=text], textarea {
+	color:black;
+}
+
+.practiceElements {
+	padding-bottom: 42px;
+}
+
+
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.fplink{
+	color:blue;
+}
+
