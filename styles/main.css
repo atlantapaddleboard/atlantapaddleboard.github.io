@@ -161,7 +161,7 @@ input[type=text], textarea {
 
 /* mouse over link */
 a:hover {
-    color: white;
+    color: black;
 }
 
 /* selected link */
